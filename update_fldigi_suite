@@ -30,7 +30,7 @@ fi
 
 # Ensure needed components are present
 echo -e "\nDownloading any missing required packages..."
-sudo apt -y install build-essential libfltk1.3-dev libsamplerate0-dev portaudio19-dev libsndfile1-dev libxft-dev libxinerama-dev libxcursor-dev libpulse-dev pavucontrol libusb-1.0-0-dev
+sudo apt -y install build-essential libfltk1.3-dev libsamplerate0-dev portaudio19-dev libsndfile1-dev libxft-dev libxinerama-dev libxcursor-dev libpulse-dev pavucontrol libusb-1.0-0-dev libudev-dev
 
 for PROGRAM in "${FLDIGI_APPS[@]}"
 do
